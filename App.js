@@ -5,7 +5,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Oompa Loompa part 2</Text>
+        <Text style={styles.tekst}>Oompa Loompa part 2</Text>
       </View>
     );
   }
@@ -14,9 +14,11 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000',
-    color: 'white',
+    backgroundColor: 'red',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  tekst:{
+    color: 'white',
   },
 });
